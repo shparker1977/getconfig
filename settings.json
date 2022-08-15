@@ -1,0 +1,63 @@
+{
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.formatOnType": true,
+  "editor.cursorStyle": "line",
+  "editor.lineNumbers": "on",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
+  "editor.inlineSuggest.enabled": true,
+  "editor.autoClosingQuotes": "never",
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingOvertype": "never",
+  "editor.autoClosingDelete": "never",
+  "editor.autoSurround": "never",
+  "editor.maxTokenizationLineLength": 40000,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+
+  "typescript.autoClosingTags": false,
+  "javascript.autoClosingTags": false,
+  "html.autoClosingTags": false,
+  "html.autoCreateQuotes": false,
+  "diffEditor.codeLens": true,
+  "files.exclude": {
+    "**/.git": false
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.tree.indent": 28,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  
+  "vim.handleKeys": {
+    "<C-c>": false,
+    "<C-v>": false
+  },
+  "vim.commandLineModeKeyBindings": [
+  ],
+  "vim.useCtrlKeys": false,
+  "vim.foldfix": true,
+  "vim.insertModeKeyBindings": [
+
+  ],
+
+  "go.formatTool": "goimports",
+  "go.toolsManagement.autoUpdate": true,
+  "python.languageServer": "Pylance",
+  "python.terminal.activateEnvironment": true,
+  "python.globalModuleInstallation": false,
+  "python.defaultInterpreterPath": "/Users/i814196/venvs/flask/bin/python",
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.venvFolders": ["venvs", "~/.pyenv"],
+  
+  "javascript.preferences.jsxAttributeCompletionStyle": "none",
+  "omnisharp.useModernNet": false,
+  "omnisharp.monoPath": "/Library/Frameworks/Mono.framework/Versions/Current",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "prettier.singleQuote": true,
+  "svelte.enable-ts-plugin": true,
+  "typescript.preferences.jsxAttributeCompletionStyle": "none",
+  "yaml.customTags": ["!encrypted/pkcs1-oaep scalar", "!vault scalar"],
+}
